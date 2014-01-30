@@ -1,56 +1,53 @@
 # HTML AND CSS
 
+## Learning Competencies
 
-1. [Learning Objectives](#learning-objectives)
-1. [Summary](#summary)
-1. [Releases](#releases)
-1. [Helpful Resources](#helpful-resources)
-
-## Learning Objectives
-
-1. [Semantic HTML](http://www.webstyleguide.com/wsg3/5-site-structure/2-semantic-markup.html)
-1. CSS Selectors
-1. CSS Positioning and Display
+* Use [Semantic HTML](http://www.webstyleguide.com/wsg3/5-site-structure/2-semantic-markup.html) to structure a website
+* Use CSS selectors to efficiently select any DOM element #p2
+* Explain the tradeoffs of different CSS selectors and CSS specificity and design your CSS to optimize these
+* Change basic CSS appearance: colors, widths, padding, margin
+* Position elements using CSS positioning, display and float
 
 ## Summary 
-HTML is used to create the general structure of a page.  CSS is used to add styles to this page.  In this challenge you will create an awesome web site. 
+HTML is used to create the general structure of a page.  CSS is used to add styles to this page.  In this challenge you will use HTML and CSS to recreate an existing web site. 
+
 ## Releases
 Work through each release completely before moving on.  When you finish a release, make sure you UNDERSTAND the code. 
 
-### Release 1
+###Release 0: Choose your poison
+Find a web page that represents a topic / item you are interested in (like bicycles).  The page should be relatively simple but have some images and some text.  
+
+* Take a screenshot of the website.  You will use this screenshot for your recreation (you should NOT look at the html or styles from the original site - base all your work off the screenshot.)  Add this screenshot to your source forder
+
+* Create an `image` directory and download a subset of the images from the page to this folder. (Your page does not need to have exact images - if there are a lot of similar images you can use one to represent them all).  
+
+### Release 1 : The HTML
 Create the HTML using HTML 5.  
 *  Create the `<head>` tag with links to a `normalize.css` and your style sheet `styles.css`.
 * Create the `<body>` with a `<header>`, `<nav>` and content. 
-* Your `<header>` should contain a logo and a company name and the `<nav>`.
-* Your `<nav>` should contain three links to sign_up, sign_in, and sign_out in a list. (these do not have to link to other pages.)
-* Use [lorem ipsum](http://www.lipsum.com/) text to put ALOT of text in your main content `<div>`
-* Add a `<footer>` with numbers 1-5 for paganation.
-* Make sure your page is validated.
+* You can duplicate the text of your site exactly, or if there is a lot of text you can use [lorem ipsum](http://www.lipsum.com/) text. 
+* Add all the images.
+* Make sure your page is [validated](http://validator.w3.org/).
 
-### Release 2. 
-Add the CSS
-* First, get inspired.  Look at the [CSS Zen Garden](http://www.csszengarden.com/) website and explore the power of CSS.  Then add your own styles to your html page. 
-* Style your `<header>` and `<nav>` bar to look similar to [this image](nav.png)
-* Style your main content `<div>` to have [two or three columns](http://www.noupe.com/css/9-timeless-3-column-layout-techniques.html).
-* Style the pagination in your footer to look like [this image](pagination.jpeg) 
-* Try to add these things to your css to explore and better understand: 
-  * Display - block, inline, inline-block
-  * Float
-  * The box model.
- 
+Your HTML should contain as little formatting as possible.
 
-### Release 3.
-* Add additional html 5 elements to your main content (like article)
-* Explore CSS3  and add CSS3 styles (like gradients or rotations).
+### Release 2 : Add the CSS
 
-### Release 4.
-* Re-do your site using [bootstrap](http://getbootstrap.com/)
+Your CSS should recreate the format of your original page. Use a color picker to get the correct colors. 
 
-## Helpful Resources
+## Optimize your learning
+Make sure you are **learning CSS** not just getting caught in the **try and see** cycle.
 
-1. [Semantic HTML](http://www.webstyleguide.com/wsg3/5-site-structure/2-semantic-markup.html)
-1. the [box model](http://css-tricks.com/the-css-box-model/)
-1. [positioning](http://alistapart.com/article/css-positioning-101)
-1. [display](http://reference.sitepoint.com/css/display) 
-1. [float](http://alistapart.com/article/css-floats-101)
-1. [normalize.css](http://necolas.github.io/normalize.css/)
+* Can you explain how you created each effect? 
+* Can you explain why you made choices of particular css properties (like display, float, positioning)?  
+* Is your CSS well factored for change? If the main navigation were to move from the top to the left side, how hard would it be to implement? 
+
+## Resources
+
+* [Semantic HTML](http://www.webstyleguide.com/wsg3/5-site-structure/2-semantic-markup.html)
+* the [box model](http://css-tricks.com/the-css-box-model/)
+* [positioning](http://alistapart.com/article/css-positioning-101)
+* [display](http://reference.sitepoint.com/css/display) 
+* [float](http://alistapart.com/article/css-floats-101)
+* [normalize.css](http://necolas.github.io/normalize.css/)
+* [CSS Zen Garden](http://www.csszengarden.com/)
