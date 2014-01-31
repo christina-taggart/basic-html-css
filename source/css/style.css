@@ -1,0 +1,45 @@
+.content {
+  width: 940px;
+  margin: 0 auto;
+}
+
+#nav {
+  height: 100%;
+}
+
+#nav img {
+  display: inline;
+}
+
+#nav ul {
+	list-style: none;
+  display: inline;
+  padding-left: 150px;
+}
+
+#nav ul li {
+	display: inline;
+}
+
+#nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-right: 25px;
+  font-size: 14px;
+}
+
+#promotion {
+  padding: 3px;
+  border: solid gray 3px;
+}
+
+#promotion img {
+  margin: 0 auto;
+  display: block;
+}
+
+#main-content p {
+  font-size: 12px;
+}
+
+
