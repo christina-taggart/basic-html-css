@@ -52,3 +52,19 @@ nav a:hover {
   color: #BD241E;
   text-decoration: underline;
 }
+
+#main-subtitle {
+  background-color: #21211F;
+  color: white;
+}
+
+#main-slideshow {
+  font-size: 0px;
+  width: 980px;
+}
+
+#main-subtitle p {
+  font-size: 16px;
+  padding: 20px;
+  margin: 0px;
+}
