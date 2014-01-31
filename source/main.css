@@ -19,6 +19,7 @@ nav{
 
 li{
 	display: inline;
+	font-weight: lighter;
 
 }
 
@@ -34,9 +35,11 @@ li{
 	color: #02B331;
 }
 .slideshow{
-	margin: 120px;
+
 	border: 2px solid #FF00BB;
 	border-radius: 3px;
+	width: 100%;
+	margin-top: 20px;
 }
 
 .first li{
@@ -52,8 +55,8 @@ li{
 .second li{
 	position: relative;
 	bottom: 70px;
-	right: 170px;
-	margin-right: 30px;
+	right: 230px;
+	margin-right: 33px;
 	font-size: 13px;
 
 }
@@ -71,6 +74,7 @@ textarea{
 	position: relative;
 	top:50px;
 	left: 170px;
+	font-weight: lighter;
 
 }
 
@@ -85,8 +89,7 @@ textarea{
 	display: inline;
 	position: relative;
 	bottom: 105px;
-	left: 180px;
-	
+	left: 250px;	
 }
 
 .social img{
@@ -97,4 +100,20 @@ textarea{
 
 .firstline{
 	display: inline;
+}
+
+.photohead{
+	display: inline;
+	
+}
+
+.photohead p{
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.photohead img{
+	margin: 5px;
+	padding: 5px;
+	border: 1px solid #BDBDBD;
 }
