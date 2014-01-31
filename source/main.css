@@ -68,3 +68,41 @@ nav a:hover {
   padding: 20px;
   margin: 0px;
 }
+
+#about {
+  border: 1px solid #21211F;
+  display: inline-block;
+  font-size: 5px;
+  height: 150px;
+  margin: 15px 15px 15px 0px;
+  width: 510px;
+  vertical-align: top;
+}
+
+#news {
+  border: 1px solid #21211F;
+  display: inline-block;
+  margin: 15px 0px 15px 15px;
+  padding: 10px;
+  width: 390px;
+  vertical-align: top;
+}
+
+#left-half {
+  width: 548px;
+  display: inline-block;
+}
+
+#left-pane {
+  border: 1px solid #21211F;
+  display: inline-block;
+  margin: 15px 15px 15px 0px;
+  width: 237px;
+}
+
+#right-pane {
+  border: 1px solid #21211F;
+  display: inline-block;
+  margin: 15px 0px 15px 15px;
+  width: 237px;
+}
