@@ -1,0 +1,54 @@
+body {
+  background: url(images/BARK.jpg) repeat center center fixed;
+}
+
+.container {
+  background-color: white;
+  width: 982px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+#logo {
+  padding-top: 10px;
+}
+
+nav {
+  background-color: grey;
+  display: inline-block;
+  margin-left: 14px;
+  padding-top: 20px;
+  width: 704px;
+}
+
+nav form {
+  text-align: right;
+  margin-right: 35px;
+}
+
+nav ul {
+  text-decoration: none;
+  text-align: right;
+}
+
+nav li {
+  display: inline;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 1.5em;
+  margin-right: 15px;
+}
+
+nav a {
+  border-left: 1px solid white;
+  color: white;
+  letter-spacing: 1px;
+  margin-right: 20px;
+  padding-left: 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  border-left: 1px solid #BD241E;
+  color: #BD241E;
+  text-decoration: underline;
+}
