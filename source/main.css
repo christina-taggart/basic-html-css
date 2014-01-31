@@ -1,0 +1,100 @@
+.container{
+	margin: 0em auto;
+	width:85%;
+}
+
+.wrapper{
+	display: inline;
+}
+
+ .wrapper .donate{
+	border-radius: 5px;
+	background-color: #AAFF00;
+	padding: 5px;
+}
+
+nav{
+	float: right;
+}
+
+li{
+	display: inline;
+
+}
+
+.pink{
+	color: #FF00BB;
+}
+
+.yell{
+	color: #FFBF00;
+}
+
+.green{
+	color: #02B331;
+}
+.slideshow{
+	margin: 120px;
+	border: 2px solid #FF00BB;
+	border-radius: 3px;
+}
+
+.first li{
+	border-radius: 5px;
+	background-color: black;
+	padding: 5px;
+	color: white;
+	font-size: 10px;
+	margin-right: 10px;
+
+}
+
+.second li{
+	position: relative;
+	bottom: 70px;
+	right: 170px;
+	margin-right: 30px;
+	font-size: 13px;
+
+}
+
+textarea{
+	position: relative;
+	top: 80px;
+	left: 390px;
+	border-radius: 5px;
+	border-color: #C9C9C7;
+	font-size: 12px;
+}
+
+.wrapper p{
+	position: relative;
+	top:50px;
+	left: 170px;
+
+}
+
+.underline{
+	position:absolute;
+	top: 50px;
+	left: 120px;
+	
+}
+
+.social{
+	display: inline;
+	position: relative;
+	bottom: 105px;
+	left: 180px;
+	
+}
+
+.social img{
+	margin-right: 10px;
+}
+
+
+
+.firstline{
+	display: inline;
+}
