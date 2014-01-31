@@ -70,22 +70,71 @@ nav a:hover {
 }
 
 #about {
+  background-color: #F1F1F1;
   border: 1px solid #21211F;
   display: inline-block;
-  font-size: 5px;
+  font-size: 0.75em;
   height: 150px;
   margin: 15px 15px 15px 0px;
-  width: 510px;
+  padding: 10px;
+  width: 490px;
   vertical-align: top;
 }
 
+h3 {
+  color: #BD241E;
+}
+
+h4 {
+  color: grey;
+}
+
 #news {
+  background-color: #F1F1F1;
   border: 1px solid #21211F;
   display: inline-block;
+  font-size: 0.75em;
   margin: 15px 0px 15px 15px;
-  padding: 10px;
+  padding: 0px 10px 10px 10px;
   width: 390px;
   vertical-align: top;
+}
+
+#news-title {
+  background-color: #BB1515;
+  font-size: 1em;
+  margin: 0 -10px 0 -10px;
+  padding: 4px 0 4px 0;
+  color: white;
+  top: 0;
+}
+
+#news-title p {
+  margin: 0 0 0 10px;
+}
+
+.news-article {
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.date {
+  color: black;
+  font-size:  .75em;
+}
+
+.article-title {
+  color: gray;
+}
+
+#news a {
+  color: #BB1515;
+}
+
+.more-news {
+  color: #BB1515 ;
+  text-align: right;
 }
 
 #left-half {
@@ -93,9 +142,15 @@ nav a:hover {
   display: inline-block;
 }
 
+.product-special img {
+  position: absolute;
+  z-index: 0;
+}
+
 #left-pane {
   border: 1px solid #21211F;
   display: inline-block;
+  height: 141px;
   margin: 15px 15px 15px 0px;
   width: 237px;
 }
@@ -103,6 +158,29 @@ nav a:hover {
 #right-pane {
   border: 1px solid #21211F;
   display: inline-block;
+  height: 141px;
   margin: 15px 0px 15px 15px;
   width: 237px;
+}
+
+.frosted-pane {
+  background-color: white;
+  height: 80px;
+  margin-top: 70px;
+  opacity: 0.7;
+  position: relative;
+  vertical-align: bottom;
+  z-index: 2;
+}
+
+.frosted-pane p {
+  color: gray;
+  font-size: 0.75em;
+  padding: 0 0 10px 5px;
+}
+
+h5 {
+  color: #BB1515;
+  font-size: 1em;
+  padding: 10px 0px 0px 5px;
 }
