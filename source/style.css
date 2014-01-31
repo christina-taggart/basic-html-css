@@ -1,0 +1,20 @@
+html {
+  background-color: #282828;
+  height: 100%;
+}
+
+#header {
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: inline-block;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #888888;
+}
